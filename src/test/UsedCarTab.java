@@ -13,7 +13,7 @@ public class UsedCarTab extends Config{
 	@Test
 	public void usedcarclick() {
 	
-		//driver.findElement(By.xpath(AB.Usedcar)).click();;
+		//driver.findElement(By.xpath(AB.Usedcar)).click();
 		
 		clickByXpath(AB.Usedcar);
 	}

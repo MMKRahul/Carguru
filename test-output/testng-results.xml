@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8912" started-at="2019-05-23T03:05:54Z" finished-at="2019-05-23T03:06:03Z">
+  <suite name="Default suite" duration-ms="8497" started-at="2019-05-24T05:28:44Z" finished-at="2019-05-24T05:28:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8912" started-at="2019-05-23T03:05:54Z" finished-at="2019-05-23T03:06:03Z">
-      <class name="test.UsedCarTab">
-        <test-method status="PASS" signature="BeforeTestStart()[pri:0, instance:test.UsedCarTab@3abbfa04]" name="BeforeTestStart" is-config="true" duration-ms="5070" started-at="2019-05-23T03:05:54Z" finished-at="2019-05-23T03:05:59Z">
+    <test name="Default test" duration-ms="8497" started-at="2019-05-24T05:28:44Z" finished-at="2019-05-24T05:28:52Z">
+      <class name="test.NewCarsTab">
+        <test-method status="PASS" signature="BeforeTestStart()[pri:0, instance:test.NewCarsTab@3abbfa04]" name="BeforeTestStart" is-config="true" duration-ms="7010" started-at="2019-05-24T05:28:44Z" finished-at="2019-05-24T05:28:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestStart -->
-        <test-method status="PASS" signature="usedcarclick()[pri:0, instance:test.UsedCarTab@3abbfa04]" name="usedcarclick" duration-ms="1489" started-at="2019-05-23T03:05:59Z" finished-at="2019-05-23T03:06:01Z">
+        <test-method status="PASS" signature="newcarsclick()[pri:0, instance:test.NewCarsTab@3abbfa04]" name="newcarsclick" duration-ms="1350" started-at="2019-05-24T05:28:51Z" finished-at="2019-05-24T05:28:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- usedcarclick -->
-        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.UsedCarTab@3abbfa04]" name="afterEachTest" is-config="true" duration-ms="2322" started-at="2019-05-23T03:06:01Z" finished-at="2019-05-23T03:06:03Z">
+        </test-method> <!-- newcarsclick -->
+        <test-method status="PASS" signature="afterEachTest()[pri:0, instance:test.NewCarsTab@3abbfa04]" name="afterEachTest" is-config="true" duration-ms="116" started-at="2019-05-24T05:28:52Z" finished-at="2019-05-24T05:28:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTest -->
-      </class> <!-- test.UsedCarTab -->
+      </class> <!-- test.NewCarsTab -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
