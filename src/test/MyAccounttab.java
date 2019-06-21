@@ -13,16 +13,18 @@ public class MyAccounttab extends Config {
 	CarguruValues cgv = new CarguruValues();
 	
 	@Test
-	public void myaccounttabclick() {
+	public void myaccounttabclick() throws InterruptedException {
 		
 		clickByXpath(cgl.MyAccount);
 		clickByXpath(cgl.Signin);
 		
 		typeByXpath(cgl.EmailAddress,cgv.EmailVal);
-		driver.findElement(By.xpath(cgl.Next));
+		driver.findElement(By.xpath(cgl.Next)).click();
 		
-		typeByXpath(cgl.Password,cgv.PassVal);
-		driver.findElement(By.xpath(cgl.SigninButton));
+		//typeByXpath(cgl.Password,cgv.PassVal);
+		//driver.findElement(By.xpath(cgl.SigninButton)).click();
+		
+		Thread.sleep(3000);
 		
 	}
 }

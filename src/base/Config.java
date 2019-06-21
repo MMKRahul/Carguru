@@ -25,10 +25,10 @@ public class Config extends WebDriverFunctions {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 	}
 	
-//	@AfterMethod
-//	public void afterEachTest(){
-//		driver.close();
-	//}
+	@AfterMethod
+	public void afterEachTest(){
+		driver.close();
+	}
 
 	//@AfterSuite
 	//public void suiteComplete(){

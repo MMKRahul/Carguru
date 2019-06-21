@@ -36,9 +36,21 @@ public class CarguruLocators {
 	
 	public String SigninButton = "//*[@id=\'contentBody\']/div/div/div/div[2]/div[2]/form/fieldset/div[3]/button";
 	
+	//Image Xpath
 	
+	public String Image = "//*[@id=\'redesign\']/div/div[1]/a/img";
 	
+	//Search Used Car By Model
 	
+	public String UsedCars = "//*[@id=\'heroSearch\']/label[1]";
+	
+	public String AllMakes = "//*[@id=\'carPickerUsed_makerSelect\']";
+	
+	public String AllModels = "//*[@id=\'carPickerUsed_modelSelect\']";
+	
+	public String ZIP = "//*[@id=\'dealFinderZipUsedId\']";
+	
+	public String ClickSearch = "//*[@id=\'dealFinderForm_0\']";
 	
 	
 	
