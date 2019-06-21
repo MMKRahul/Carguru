@@ -21,8 +21,8 @@ public class MyAccounttab extends Config {
 		typeByXpath(cgl.EmailAddress,cgv.EmailVal);
 		driver.findElement(By.xpath(cgl.Next));
 		
-//		typeByXpath(cgl.Password,cgv.PassVal);
-//		driver.findElement(By.xpath(cgl.SigninButton));
+		typeByXpath(cgl.Password,cgv.PassVal);
+		driver.findElement(By.xpath(cgl.SigninButton));
 		
 	}
 }
