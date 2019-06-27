@@ -3,9 +3,33 @@ package utils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class WebDriverFunctions {
+import locators.CarguruLocators;
+import values.CarguruValues;
 
+public class WebDriverFunctions {
+	
 	protected WebDriver driver;
+	public String EmailVal = "mehedikabir007@gmail.com";
+	public String PassVal = "Rahul007";
+	
+	CarguruLocators cgl = new CarguruLocators();
+	CarguruValues cgv = new CarguruValues();
+	
+	public void logInToCarGuru(String email, String pass) throws InterruptedException {
+		
+		clickByXpath(cgl.MyAccount);
+		clickByXpath(cgl.Signin);
+		Thread.sleep(200);
+		typeByXpath(cgl.EmailAddress,email);
+		driver.findElement(By.xpath(cgl.nextButton)).click();
+		typeByXpath(cgl.Password,pass);
+		driver.findElement(By.xpath(cgl.SigninButton)).click();
+		}
+	
+	public void logOutFromCarGuru() {
+		clickByXpath (" xpath goes here ");
+	}
+	
 	// type
 	 // by xpath, 
 	 // by id

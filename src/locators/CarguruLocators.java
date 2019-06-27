@@ -30,7 +30,8 @@ public class CarguruLocators {
 	
 	public String EmailAddress = "//*[@id=\'registerEmail\']";
 	
-	public String Next = "//*[@id=\'contentBody\']/div/div/div/div[2]/div[2]/div[1]/form/fieldset/button";
+	public String Next = "//button[@type='submit']";
+	public String nextButton = "//*[@id=\'contentBody\']/div/div/div/div[2]/div[2]/div[1]/form/fieldset/button";
 	
 	public String Password = "//*[@id=\'loginPassword\']";
 	

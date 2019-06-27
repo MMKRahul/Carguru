@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.MyAccounttab">
+      <class name="test.ReadFromXL">
         <methods>
+          <include name="ReadfrmXL"/>
           <include name="afterEachTest"/>
           <include name="BeforeTestStart"/>
-          <include name="myaccounttabclick"/>
         </methods>
-      </class> <!-- test.MyAccounttab -->
+      </class> <!-- test.ReadFromXL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
