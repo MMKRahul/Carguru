@@ -11,7 +11,9 @@
       <class name="test.VerifingHomePageScrollBarMovesAllTheWayToTheBottomPage"/>
       <class name="test.VerifingRightURL"/>
       <class name="test.VerifingImageLogoTakesUserToHomePage"/>
-      <class name="test.MyAccounttab"/>
+      <class name="test.FooterTabs"/>
+      <class name="test.WriteInToXL"/>
+      <class name="test.SearchNewCar"/>
     </classes>
   </test> <!-- Test1 -->
 </suite> <!-- Regression -->

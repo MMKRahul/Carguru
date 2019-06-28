@@ -26,7 +26,7 @@ public class ReadFromXL extends Config{
 		
 		driver.findElement(By.xpath(cgl.EmailAddress)).sendKeys(Value);
 		
-		Thread.sleep(9000);
+		Thread.sleep(5000);
 		
 		clickByXpath(cgl.Next);
 		
